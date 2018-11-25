@@ -14,6 +14,7 @@ https://hackernoon.com/make-your-tv-voice-controlled-through-amazon-alexa-and-ra
 using the ```intent.json``` from the root folder.
 
 ## Run
+Make sure the TV is on and connected before start the flask server
 ```
 ./ngrok http 5000
 python3 index.py
