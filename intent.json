@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tv",
+            "intents": [
+                {
+                    "name": "ChangePowerIntent",
+                    "slots": [
+                        {
+                            "name": "power_value",
+                            "type": "LIST_OF_POWERS"
+                        }
+                    ],
+                    "samples": [
+                        "turn {power_value}"
+                    ]
+                },
+                {
+                    "name": "StartNetflix",
+                    "slots": [],
+                    "samples": [
+                        "start netflix"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_POWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
