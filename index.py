@@ -35,6 +35,17 @@ def start_netflix():
     return statement('Starting netflix')
 
 
+@ask.intent('Pause')
+def pause():
+    tv.pause()
+    return statement('Ok')
+
+@ask.intent('Play')
+def play():
+    tv.play()
+    return statement('Ok')
+
+
 if __name__ == '__main__':
     tv = lgtv.lgtv()
     app.run(debug=True)

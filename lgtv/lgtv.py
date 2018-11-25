@@ -30,4 +30,10 @@ class lgtv(object):
 
     def start_netflix(self):
         self.webos_client.launch_app('netflix')
+    
+    def pause(self):
+        self.webos_client.pause()
+    
+    def play(self):
+        self.webos_client.play()
         

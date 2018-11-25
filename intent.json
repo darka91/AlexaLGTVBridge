@@ -19,7 +19,25 @@
                     "name": "StartNetflix",
                     "slots": [],
                     "samples": [
+                        "run netflix",
                         "start netflix"
+                    ]
+                },
+                {
+                    "name": "Pause",
+                    "slots": [],
+                    "samples": [
+                        "stop",
+                        "break",
+                        "pause"
+                    ]
+                },
+                {
+                    "name": "Play",
+                    "slots": [],
+                    "samples": [
+                        "continue",
+                        "play"
                     ]
                 }
             ],
