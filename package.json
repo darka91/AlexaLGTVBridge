@@ -1,0 +1,25 @@
+{
+  "name": "lgtv2alexa",
+  "version": "1.0.0",
+  "description": "Control LG tv using Alexa.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darka91/AlexaLGTVBridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darka91/AlexaLGTVBridge/issues"
+  },
+  "homepage": "https://github.com/darka91/AlexaLGTVBridge#readme",
+  "dependencies": {
+    "lgtv2": "^1.4.1",
+    "node-wol": "^0.1.1",
+    "peer-ssdp": "0.0.5",
+    "wemore": "^0.6.0"
+  }
+}
