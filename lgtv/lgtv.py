@@ -36,4 +36,6 @@ class lgtv(object):
     
     def play(self):
         self.webos_client.play()
-        
+
+    def set_volume(self, value):
+        self.webos_client.set_volume(value)

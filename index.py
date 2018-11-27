@@ -45,6 +45,11 @@ def play():
     tv.play()
     return statement('Ok')
 
+@ask.intent('SetupVolume')
+def set_volume(volume):
+    tv.set_volume(int(volume))
+    return statement('Done')
+
 
 if __name__ == '__main__':
     tv = lgtv.lgtv()
